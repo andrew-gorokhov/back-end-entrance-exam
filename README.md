@@ -46,7 +46,7 @@
 2. Перейдите в директорию проекта:
 
     ```bash
-    cd api_cache
+    cd back-end-entrance-exam
     ```
 
 3. Установите зависимости:
