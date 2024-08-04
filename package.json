@@ -3,11 +3,24 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
-    "express": "~4.16.1",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
+  },
+  "description": "Выполненная лабораторная работа по JS",
+  "main": "app.js",
+  "keywords": [],
+  "author": "Andrew Gorohov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.8.0",
+    "prettier": "3.3.3"
   }
 }
